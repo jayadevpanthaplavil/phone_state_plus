@@ -5,5 +5,5 @@ enum PhoneStateStatus {
   CALL_STARTED,
   CALL_ENDED,
   CALL_OUTGOING,
-  // CALL_ON_HOLD,
+  CALL_ON_HOLD,
 }
