@@ -90,4 +90,9 @@ class PhoneCallManager {
     _calls[uuid] = phoneState;
     return Map.from(_calls);
   });
+
+  /// Clears all calls from the internal map
+  static void clearCalls() {
+    _calls.clear();
+  }
 }
